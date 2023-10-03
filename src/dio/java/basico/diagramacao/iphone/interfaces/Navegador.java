@@ -2,10 +2,10 @@ package dio.java.basico.diagramacao.iphone.interfaces;
 
 public interface Navegador {
 	
-	public void exibirPaguina(String url);
+	public String exibirPaguina(String url);
 	
-	public void adicionarNovaAba();
+	public String adicionarNovaAba();
 	
-	public void atualizar();
+	public String atualizar();
 	
 }

@@ -2,9 +2,9 @@ package dio.java.basico.diagramacao.iphone.interfaces;
 
 public interface Musica {
 	
-	public void tocar(String album);
+	public String tocar(String album);
 	
-	public void pausar();
+	public String pausar();
 	
-	public void selecionarMusica();
+	public String selecionarMusica(String selecionarMusica);
 }
